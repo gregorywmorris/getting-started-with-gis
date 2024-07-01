@@ -1,0 +1,22 @@
+[project]
+name = "getting-started-with-gis"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "gregorywmorris", email = "gwm1980@gmail.com"},
+]
+dependencies = [
+    "pandas",
+    "geopandas",
+    "contextily",
+    "matplotlib",
+    "descartes",
+    "mapclassify",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
